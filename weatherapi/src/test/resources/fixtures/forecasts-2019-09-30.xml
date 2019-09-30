@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<forecasts>
+    <forecast date="2019-09-30">
+        <night>
+            <phenomenon>Light rain</phenomenon>
+            <tempmin>7</tempmin>
+            <tempmax>12</tempmax>
+            <text>Cloudy with bright spells. At times rain. Fog in places. Southerly wind 3-9 m/s. Air temperature 7..12°C.</text>
+            <place>
+                <name>Harku</name>
+                <phenomenon>Light rain</phenomenon>
+                <tempmin>10</tempmin>
+            </place>
+            <place>
+                <name>Jõhvi</name>
+                <phenomenon>Light rain</phenomenon>
+                <tempmin>9</tempmin>
+            </place>
+            <place>
+                <name>Tartu</name>
+                <phenomenon>Light rain</phenomenon>
+                <tempmin>9</tempmin>
+            </place>
+            <place>
+                <name>Pärnu</name>
+                <phenomenon>Moderate rain</phenomenon>
+                <tempmin>11</tempmin>
+            </place>
+            <place>
+                <name>Kuressaare</name>
+                <phenomenon>Light shower</phenomenon>
+                <tempmin>12</tempmin>
+            </place>
+            <place>
+                <name>Türi</name>
+                <phenomenon>Light rain</phenomenon>
+                <tempmin>9</tempmin>
+            </place>
+            <wind>
+                <name>Kuusiku</name>
+                <direction>Southerly winds</direction>
+                <speedmin>3</speedmin>
+                <speedmax>6</speedmax>
+                <gust></gust>
+            </wind>
+            <wind>
+                <name>Väike-Maarja</name>
+                <direction>Southerly winds</direction>
+                <speedmin>3</speedmin>
+                <speedmax>7</speedmax>
+                <gust></gust>
+            </wind>
+            <wind>
+                <name>Võrtsjärv</name>
+                <direction>Southerly winds</direction>
+                <speedmin>3</speedmin>
+                <speedmax>7</speedmax>
+                <gust></gust>
+            </wind>
+            <sea>Forecast for Baltic Sea valid 24 hours from 07:00 UTC Sep 30 to 07:00 UTC Oct 1, 2019.
+
+                Weather summary: Low deepening over Sea of Bothnia.
+
+                No warnings
+
+                Northern Baltic: variable wind 2 to 7, in evening becoming southwest, west 5 to 10 m/s. at night west increasing 12 to 17, in gusts up to 22 m/s. At night wave height 2 to 4 m. Rain at times. Visibility moderate.
+
+                Moonsund, Northern Gulf of Riga, Western Gulf of Finland: southerly wind 3 to 9 m/s, in afternoon variable wind 2 to 6 m/s. At night wind becoming west and increasing by morning 11 to 16, in gusts up to 20 m/s. In morning wave height 1.5 to 3 m. Rain at times. Visibility moderate, at night and morning locally fog.
+
+                Eastern Gulf of Finland: southerly wind 3 to 9 m/s, at night wind becoming west and in morning increasing 7 to 12, in gusts up to 15 m/s. Rain at times. Visibility moderate.
+            </sea>
+            <peipsi>Southerly wind 4-8 m/s. Wave height 0.3-0.9 m. At times rain. Visibility moderate. Air temperature 8..10°C.</peipsi>
+        </night>
+        <day>
+            <phenomenon>Light rain</phenomenon>
+            <tempmin>12</tempmin>
+            <tempmax>15</tempmax>
+            <text>Cloudy with bright spells. Rain in many places. Mainly southerly, in afternoon variable wind 2-7 m/s. Air temperature 12..15°C.</text>
+            <place>
+                <name>Harku</name>
+                <phenomenon>Moderate shower</phenomenon>
+                <tempmax>14</tempmax>
+            </place>
+            <place>
+                <name>Jõhvi</name>
+                <phenomenon>Light rain</phenomenon>
+                <tempmax>13</tempmax>
+            </place>
+            <place>
+                <name>Tartu</name>
+                <phenomenon>Light rain</phenomenon>
+                <tempmax>14</tempmax>
+            </place>
+            <place>
+                <name>Pärnu</name>
+                <phenomenon>Light rain</phenomenon>
+                <tempmax>14</tempmax>
+            </place>
+            <place>
+                <name>Kuressaare</name>
+                <phenomenon>Moderate shower</phenomenon>
+                <tempmax>12</tempmax>
+            </place>
+            <place>
+                <name>Türi</name>
+                <phenomenon>Light rain</phenomenon>
+                <tempmax>14</tempmax>
+            </place>
+            <wind>
+                <name>Kuusiku</name>
+                <direction>Southerly winds</direction>
+                <speedmin>2</speedmin>
+                <speedmax>4</speedmax>
+                <gust></gust>
+            </wind>
+            <wind>
+                <name>Väike-Maarja</name>
+                <direction>Southerly winds</direction>
+                <speedmin>2</speedmin>
+                <speedmax>5</speedmax>
+                <gust></gust>
+            </wind>
+            <wind>
+                <name>Võrtsjärv</name>
+                <direction>Southerly winds</direction>
+                <speedmin>2</speedmin>
+                <speedmax>5</speedmax>
+                <gust></gust>
+            </wind>
+            <sea></sea>
+            <peipsi>Southerly wind 2-7 m/s. Wave height 0.3-0.7 m. At times rain. Visibility moderate. Air temperature 12..14°C.</peipsi>
+        </day>
+    </forecast>
+    <forecast date="2019-10-01">
+        <night>
+            <phenomenon>Moderate rain</phenomenon>
+            <tempmin>5</tempmin>
+            <tempmax>11</tempmax>
+            <text>Cloudy with bright spells with rain at times. West, southwest wind increasing 7-12, on coast by morning 10-15, in gusts  up to 20 m/s, on islands increasing west, northwest 11-16, in gusts up to 22 m/s. Air temperature 5..8, on cosat to 11°C.</text>
+        </night>
+        <day>
+            <phenomenon>Moderate shower</phenomenon>
+            <tempmin>8</tempmin>
+            <tempmax>12</tempmax>
+            <text>Partly cloudy. In forenoon scattered showers, in northern part locally sleet possible, in afternoon from south showers will die out. Southwest, west wind 7-13, in gusts 17 m/s, on coast 12-16, in gusts up to 17, on islands and coast 18-22 m/s. Air temperature 8..12°C.</text>
+        </day>
+    </forecast>
+    <forecast date="2019-10-02">
+        <night>
+            <phenomenon>Variable clouds</phenomenon>
+            <tempmin>2</tempmin>
+            <tempmax>11</tempmax>
+            <text>A fwe or partly cloudy and mainly dry. Southwest, west, at first 7-12, in gusts 15, on northern coast 12-16, in gusts up to 20 m/s, by morning decreasing 3-10, on northern coust in gusts 14 m/s. Air temperature 2..6, on coast 6..11°C.</text>
+        </night>
+        <day>
+            <phenomenon>Light shower</phenomenon>
+            <tempmin>10</tempmin>
+            <tempmax>13</tempmax>
+            <text>Variable cloudy. In forenoon locally, in afternoon in many places shower. Southerly wind 3-9 m/s. Air temperature 10..13°C.</text>
+        </day>
+    </forecast>
+    <forecast date="2019-10-03">
+        <night>
+            <phenomenon>Light shower</phenomenon>
+            <tempmin>1</tempmin>
+            <tempmax>10</tempmax>
+            <text>A few or partly cloudy. On continent local showers, on islands a new are of rain. South, southwest wind 2-7 m/s. Air temperature 1..6, on coast to 10°C.</text>
+        </night>
+        <day>
+            <phenomenon>Moderate shower</phenomenon>
+            <tempmin>9</tempmin>
+            <tempmax>12</tempmax>
+            <text>Cloudiness is thickening and rain is spreading from islands over mainland to east. On continent south, southwest, on islands northwest wind 1-7 m/s. Air temperature 9..12°C.</text>
+        </day>
+    </forecast>
+</forecasts>
