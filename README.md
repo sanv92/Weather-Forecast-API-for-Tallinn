@@ -1,3 +1,5 @@
+# Weather API for Tallinn
+
 ## Installation
 ### Clone Repository
 ```
