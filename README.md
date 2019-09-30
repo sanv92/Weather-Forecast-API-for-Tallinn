@@ -23,9 +23,7 @@ java -jar ./application/target/application-1.0.jar
 ---
 
 ### Swagger
-```
-/api/swagger-ui.html
-```
+https://weather-api-for-tallinn.herokuapp.com/api/swagger-ui.html
 
 ---
 
