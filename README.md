@@ -11,7 +11,7 @@ git clone https://github.com/SanderV1992/Weather-Forecast-API-for-Tallinn.git
 mvn clean install
 ```
 
-### Run
+### Project start
 ```
 mvn --projects application spring-boot:run
 mvn --projects application spring-boot:run -Drun.jvmArguments='-Dserver.port=8081'
