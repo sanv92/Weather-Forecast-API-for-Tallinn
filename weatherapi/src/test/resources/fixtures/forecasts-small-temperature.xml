@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<forecasts>
+    <forecast date="2019-09-28">
+        <night>
+            <phenomenon>Variable clouds</phenomenon>
+            <tempmin>0</tempmin>
+            <tempmax>11</tempmax>
+            <text>text example 1</text>
+            <place>
+                <name>Harku</name>
+                <phenomenon>Variable clouds</phenomenon>
+                <tempmin>4</tempmin>
+            </place>
+        </night>
+        <day>
+            <phenomenon>Moderate shower</phenomenon>
+            <tempmin>12</tempmin>
+            <tempmax>16</tempmax>
+            <text>text example 2</text>
+            <place>
+                <name>Tartu</name>
+                <phenomenon>Light shower</phenomenon>
+                <tempmax>14</tempmax>
+            </place>
+        </day>
+    </forecast>
+</forecasts>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<forecasts>
+    <forecast date="2019-09-28">
+        <night>
+            <phenomenon>Variable clouds</phenomenon>
+            <tempmin>0</tempmin>
+            <tempmax>11</tempmax>
+            <text>text example 1</text>
+            <wind>
+                <name>Kuusiku</name>
+                <direction>East wind</direction>
+                <speedmin>2</speedmin>
+                <speedmax>6</speedmax>
+                <gust></gust>
+            </wind>
+        </night>
+        <day>
+            <phenomenon>Moderate shower</phenomenon>
+            <tempmin>12</tempmin>
+            <tempmax>16</tempmax>
+            <text>text example 2</text>
+            <wind>
+                <name>Väike-Maarja</name>
+                <direction>Southeast wind</direction>
+                <speedmin>2</speedmin>
+                <speedmax>5</speedmax>
+                <gust></gust>
+            </wind>
+        </day>
+    </forecast>
+</forecasts>
