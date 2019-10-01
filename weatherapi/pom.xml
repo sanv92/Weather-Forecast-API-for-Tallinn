@@ -22,7 +22,6 @@
         <java.version>1.8</java.version>
         <maven.junit>5.4.2</maven.junit>
         <maven.junit-mockito>2.27.0</maven.junit-mockito>
-        <maven.swagger2>2.9.2</maven.swagger2>
         <maven.jackson-xml>2.9.10</maven.jackson-xml>
     </properties>
 
