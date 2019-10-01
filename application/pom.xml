@@ -67,23 +67,6 @@
             <optional>true</optional>
         </dependency>
 
-        <!-- cache -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-cache</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.data</groupId>
-            <artifactId>spring-data-redis</artifactId>
-            <version>2.0.3.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>redis.clients</groupId>
-            <artifactId>jedis</artifactId>
-            <version>2.9.0</version>
-            <type>jar</type>
-        </dependency>
-
         <!-- junit -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
