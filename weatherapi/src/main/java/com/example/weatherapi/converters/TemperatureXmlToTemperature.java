@@ -17,7 +17,7 @@ public class TemperatureXmlToTemperature implements Converter<PlaceXml, Place> {
     public Place convert(PlaceXml placeXml) {
         Place place = new Place();
         place.setUuid(UUID.randomUUID());
-        place.setPlaceType(getPlaceType(placeXml.getName()));
+        place.setType(getPlaceType(placeXml.getName()));
 
         Prediction prediction = new Prediction();
         prediction.setTemperature(getTemperature(placeXml));
@@ -28,7 +28,7 @@ public class TemperatureXmlToTemperature implements Converter<PlaceXml, Place> {
 
     private PlaceType getPlaceType(String name) {
         for (PlaceType value : PlaceType.values()) {
-            if (value.getName().equalsIgnoreCase(name)) {
+            if (value.getValue().equalsIgnoreCase(name)) {
                 return value;
             }
         }
@@ -53,7 +53,7 @@ public class TemperatureXmlToTemperature implements Converter<PlaceXml, Place> {
 
     private PhenomenonType getPhenomenonType(String name) {
         for (PhenomenonType value : PhenomenonType.values()) {
-            if (value.getName().equalsIgnoreCase(name)) {
+            if (value.getValue().equalsIgnoreCase(name)) {
                 return value;
             }
         }

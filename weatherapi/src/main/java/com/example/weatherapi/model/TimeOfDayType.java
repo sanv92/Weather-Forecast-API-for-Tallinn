@@ -15,6 +15,10 @@ public enum TimeOfDayType implements ForecastType {
     }
 
     public String getName() {
+        return name();
+    }
+
+    public String getValue() {
         return name;
     }
 }

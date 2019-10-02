@@ -17,7 +17,7 @@ public class WindXmlToPlace implements Converter<WindXml, Place> {
     public Place convert(WindXml windXml) {
         Place place = new Place();
         place.setUuid(UUID.randomUUID());
-        place.setPlaceType(getPlaceType(windXml.getName()));
+        place.setType(getPlaceType(windXml.getName()));
 
         Prediction prediction = new Prediction();
         prediction.setWind(getWind(windXml));
@@ -28,7 +28,7 @@ public class WindXmlToPlace implements Converter<WindXml, Place> {
 
     private PlaceType getPlaceType(String name) {
         for (PlaceType value : PlaceType.values()) {
-            if (value.getName().equalsIgnoreCase(name)) {
+            if (value.getValue().equalsIgnoreCase(name)) {
                 return value;
             }
         }
@@ -47,7 +47,7 @@ public class WindXmlToPlace implements Converter<WindXml, Place> {
         }
 
         for (WindType value : WindType.values()) {
-            if (value.getName().equalsIgnoreCase(windXml.getDirection())) {
+            if (value.getValue().equalsIgnoreCase(windXml.getDirection())) {
                 wind.setType(value);
             }
         }

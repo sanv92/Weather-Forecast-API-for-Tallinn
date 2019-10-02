@@ -23,7 +23,7 @@ public class ForecastNightXmlToForecast extends AbstractForecast implements Conv
         forecast.setDate(LocalDate.parse(forecastXml.getDate()));
 
         forecast.setDescription(forecastXml.getNight().getText());
-        forecast.setTimeOfDayType(TimeOfDayType.NIGHT);
+        forecast.setTimeOfDay(TimeOfDayType.NIGHT);
 
         for(PlaceXml placeXml : forecastXml.getNight().getPlaces()) {
             forecast.getPlaces().add(

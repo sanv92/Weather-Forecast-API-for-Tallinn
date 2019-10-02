@@ -15,13 +15,17 @@ public enum PlaceType implements ForecastType {
     VAIKE_MAARJA("Väike-Maarja"),
     VORTSJARV("Võrtsjärv");
 
+    private final String name;
+
     PlaceType(String name) {
         this.name = name;
     }
 
-    private final String name;
-
     public String getName() {
+        return name();
+    }
+
+    public String getValue() {
         return name;
     }
 }

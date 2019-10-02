@@ -74,11 +74,11 @@ class ForecastGroupXmlToForecastsTest {
             return Arrays.asList(
                     new Forecast()
                             .setDate(LocalDate.of(2019, 9, 28))
-                            .setTimeOfDayType(TimeOfDayType.NIGHT)
+                            .setTimeOfDay(TimeOfDayType.NIGHT)
                             .setDescription("text example 1")
                             .setPlaces(Arrays.asList(
                                     new Place()
-                                            .setPlaceType(PlaceType.HARKU)
+                                            .setType(PlaceType.HARKU)
                                             .setPrediction(
                                                     new Prediction()
                                                             .setTemperature(
@@ -91,11 +91,11 @@ class ForecastGroupXmlToForecastsTest {
                             )),
                     new Forecast()
                             .setDate(LocalDate.of(2019, 9, 28))
-                            .setTimeOfDayType(TimeOfDayType.DAY)
+                            .setTimeOfDay(TimeOfDayType.DAY)
                             .setDescription("text example 2")
                             .setPlaces(Arrays.asList(
                                     new Place()
-                                            .setPlaceType(PlaceType.TARTU)
+                                            .setType(PlaceType.TARTU)
                                             .setPrediction(
                                                     new Prediction()
                                                             .setTemperature(
@@ -162,12 +162,12 @@ class ForecastGroupXmlToForecastsTest {
                     new Forecast()
                             .setUuid(null)
                             .setDate(LocalDate.of(2019, 9, 28))
-                            .setTimeOfDayType(TimeOfDayType.NIGHT)
+                            .setTimeOfDay(TimeOfDayType.NIGHT)
                             .setDescription("text example 1")
                             .setPlaces(Arrays.asList(
                                     new Place()
                                             .setUuid(null)
-                                            .setPlaceType(PlaceType.KUUSIKU)
+                                            .setType(PlaceType.KUUSIKU)
                                             .setPrediction(
                                                     new Prediction()
                                                             .setWind(
@@ -181,12 +181,12 @@ class ForecastGroupXmlToForecastsTest {
                     new Forecast()
                             .setUuid(null)
                             .setDate(LocalDate.of(2019, 9, 28))
-                            .setTimeOfDayType(TimeOfDayType.DAY)
+                            .setTimeOfDay(TimeOfDayType.DAY)
                             .setDescription("text example 2")
                             .setPlaces(Arrays.asList(
                                     new Place()
                                             .setUuid(null)
-                                            .setPlaceType(PlaceType.VAIKE_MAARJA)
+                                            .setType(PlaceType.VAIKE_MAARJA)
                                             .setPrediction(
                                                     new Prediction()
                                                             .setWind(

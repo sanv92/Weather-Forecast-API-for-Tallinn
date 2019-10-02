@@ -1,10 +1,7 @@
 package com.example.weatherapi.model.forecast;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
-
 import java.util.Objects;
 
-@JsonInclude(JsonInclude.Include.NON_NULL)
 public class Prediction {
 
     private Temperature temperature;

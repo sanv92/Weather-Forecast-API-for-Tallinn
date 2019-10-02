@@ -14,7 +14,7 @@ public class Forecast {
 
     private LocalDate date;
 
-    private TimeOfDayType timeOfDayType;
+    private TimeOfDayType timeOfDay;
 
     private String description;
 
@@ -24,16 +24,16 @@ public class Forecast {
         this.places = new ArrayList<>();
     }
 
-    public Forecast(LocalDate date, TimeOfDayType timeOfDayType, String description) {
+    public Forecast(LocalDate date, TimeOfDayType timeOfDay, String description) {
         this.date = date;
-        this.timeOfDayType = timeOfDayType;
+        this.timeOfDay = timeOfDay;
         this.description = description;
         this.places = new ArrayList<>();
     }
 
-    public Forecast(LocalDate date, TimeOfDayType timeOfDayType, String description, List<Place> places) {
+    public Forecast(LocalDate date, TimeOfDayType timeOfDay, String description, List<Place> places) {
         this.date = date;
-        this.timeOfDayType = timeOfDayType;
+        this.timeOfDay = timeOfDay;
         this.description = description;
         this.places = places;
     }
@@ -47,12 +47,12 @@ public class Forecast {
         return this;
     }
 
-    public TimeOfDayType getTimeOfDayType() {
-        return timeOfDayType;
+    public TimeOfDayType getTimeOfDay() {
+        return timeOfDay;
     }
 
-    public Forecast setTimeOfDayType(TimeOfDayType timeOfDayType) {
-        this.timeOfDayType = timeOfDayType;
+    public Forecast setTimeOfDay(TimeOfDayType timeOfDay) {
+        this.timeOfDay = timeOfDay;
         return this;
     }
 
@@ -89,20 +89,20 @@ public class Forecast {
         if (!(o instanceof Forecast)) return false;
         Forecast forecast = (Forecast) o;
         return Objects.equals(date, forecast.date) &&
-                timeOfDayType == forecast.timeOfDayType &&
+                timeOfDay == forecast.timeOfDay &&
                 Objects.equals(description, forecast.description);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(date, timeOfDayType, description);
+        return Objects.hash(date, timeOfDay, description);
     }
 
     @Override
     public String toString() {
         return "Forecast{" +
                 "date=" + date +
-                ", timeOfDayType=" + timeOfDayType +
+                ", timeOfDay=" + timeOfDay +
                 ", description='" + description + '\'' +
                 ", places=" + places +
                 '}';

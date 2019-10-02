@@ -30,7 +30,7 @@ public class EnumTypeSerializer extends StdSerializer {
         generator.writeFieldName("name");
         generator.writeString(placeType.getName());
         generator.writeFieldName("value");
-        generator.writeString(placeType.name());
+        generator.writeString(placeType.getValue());
         generator.writeEndObject();
     }
 }

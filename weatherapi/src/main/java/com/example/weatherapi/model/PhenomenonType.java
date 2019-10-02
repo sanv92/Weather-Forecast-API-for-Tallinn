@@ -41,6 +41,10 @@ public enum PhenomenonType implements ForecastType {
     }
 
     public String getName() {
+        return name();
+    }
+
+    public String getValue() {
         return name;
     }
 }

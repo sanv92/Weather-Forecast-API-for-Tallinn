@@ -16,6 +16,10 @@ public enum LanguageType implements ForecastType {
     }
 
     public String getName() {
+        return name();
+    }
+
+    public String getValue() {
         return name;
     }
 }

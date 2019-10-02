@@ -1,14 +1,11 @@
 package com.example.weatherapi.model.forecast;
 
 import com.example.weatherapi.model.WindType;
-import com.example.weatherapi.serializer.EnumTypeSerializer;
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
 import java.util.Objects;
 
 public class Wind {
 
-    @JsonSerialize(using = EnumTypeSerializer.class)
     private WindType type;
 
     private int min;

@@ -20,6 +20,7 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <maven.jackson-xml>2.9.10</maven.jackson-xml>
         <maven.junit>5.4.2</maven.junit>
         <maven.junit-mockito>2.27.0</maven.junit-mockito>
         <maven.swagger2>2.9.2</maven.swagger2>
@@ -58,6 +59,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-xml</artifactId>
+            <version>${maven.jackson-xml}</version>
         </dependency>
 
         <!-- lombok -->

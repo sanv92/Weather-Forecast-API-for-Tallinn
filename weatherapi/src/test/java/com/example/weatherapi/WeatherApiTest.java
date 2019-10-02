@@ -107,7 +107,7 @@ class WeatherApiTest extends AbstractTest {
                 .setUuid(UUID.fromString("38400000-8cf0-11bd-b23e-10b96e4ef00d"))
                 .setDate(LocalDate.of(2019, 7, 11))
                 .setDescription("description 1")
-                .setTimeOfDayType(TimeOfDayType.DAY)
+                .setTimeOfDay(TimeOfDayType.DAY)
                 .setPlaces(
                         Arrays.asList(createPlace(), createPlace())
                 );
@@ -116,7 +116,7 @@ class WeatherApiTest extends AbstractTest {
     private Place createPlace() {
         return new Place()
                 .setUuid(UUID.fromString("18400000-8cf0-11bd-b23e-10b96e4ef00a"))
-                .setPlaceType(PlaceType.TARTU)
+                .setType(PlaceType.TARTU)
                 .setPrediction(
                         new Prediction()
                                 .setTemperature(

@@ -23,7 +23,7 @@ public class ForecastDayXmlToForecast extends AbstractForecast implements Conver
         forecast.setDate(LocalDate.parse(forecastXml.getDate()));
 
         forecast.setDescription(forecastXml.getDay().getText());
-        forecast.setTimeOfDayType(TimeOfDayType.DAY);
+        forecast.setTimeOfDay(TimeOfDayType.DAY);
 
         for (PlaceXml placeXml : forecastXml.getDay().getPlaces()) {
             forecast.getPlaces().add(
